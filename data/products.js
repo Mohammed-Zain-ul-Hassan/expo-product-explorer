@@ -9,3 +9,5 @@ export const products = [
   { id: '8', name: 'Laptop Stand', category: 'Office', price: 2999, rating: 4.2 },
   { id: '9', name: 'Desk Lamp', category: 'Office', price: 1999, rating: 4.4 },
 ];
+
+export const categories = ['All', 'Accessories', 'Audio', 'Displays', 'Office'];
