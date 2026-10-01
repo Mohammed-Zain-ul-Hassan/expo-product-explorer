@@ -12,7 +12,7 @@ export default function ProductCard({ product }) {
       </View>
       <View style={styles.right}>
         <Text style={styles.price}>Rs. {product.price.toLocaleString()}</Text>
-        <Text style={styles.rating}>{product.rating} / 5</Text>
+        <Text style={styles.rating}>{product.rating.toFixed(1)} / 5</Text>
       </View>
     </View>
   );
