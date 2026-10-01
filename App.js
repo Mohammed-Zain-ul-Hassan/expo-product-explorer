@@ -35,7 +35,7 @@ export default function App() {
                 onSelect={setSelected}
               />
               <Text style={styles.count}>
-                {visibleProducts.length} products
+                {visibleProduct.length} products
               </Text>
             </>
           }
